@@ -23,11 +23,6 @@ const Index = () => {
               GitHub
             </Button>
           </Link>
-          <Link href="mailto:johndoe@example.com">
-            <Button leftIcon={<FaEnvelope />} colorScheme="red">
-              Email Me
-            </Button>
-          </Link>
         </VStack>
       </VStack>
     </Container>
