@@ -23,6 +23,9 @@ const Index = () => {
               GitHub
             </Button>
           </Link>
+          <Button colorScheme="red" onClick={() => console.error("Error button clicked")}>
+            Trigger Error
+          </Button>
         </VStack>
       </VStack>
     </Container>
